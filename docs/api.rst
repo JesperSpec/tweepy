@@ -767,7 +767,7 @@ Geo Methods
    :param granularity: Assumed to be `neighborhood' by default; can also be `city'.
    :param max_results: A hint as to the maximum number of results to return. This is only a guideline, which may not be adhered to.
 
-.. method:: API.reverse_geocode([lat], [long], [ip], [accuracy], [granularity], [max_results])
+.. method:: API.geo_search([lat], [long], [ip], [accuracy], [granularity], [max_results])
 
    Given a latitude and longitude, looks for nearby places (cities and
    neighbourhoods) whose IDs can be specified in a call to
